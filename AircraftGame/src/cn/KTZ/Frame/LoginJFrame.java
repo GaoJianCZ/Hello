@@ -47,8 +47,8 @@ public class LoginJFrame extends JFrame{
 		//密码输入框的内容
 		String userPwd;
 		
-		File f1;
-		URL url;
+		File f1;//音频文件
+		URL url;//
 		URI uri;
 		AudioClip mus;
 		
