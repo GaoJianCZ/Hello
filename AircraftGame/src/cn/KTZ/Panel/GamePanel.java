@@ -89,6 +89,7 @@ public class GamePanel extends JPanel implements KeyListener {
 		pauseLabel = new JLabel(new ImageIcon("image/gameover.png"));
 		pauseLabel.setBounds( 400, 5,100, 37);
 		
+		//Ìí¼ÓÊó±ê¼àÌıÆ÷
 		pauseLabel.addMouseListener(new MouseListener() {			
 			@Override
 			public void mouseReleased(MouseEvent e) {
